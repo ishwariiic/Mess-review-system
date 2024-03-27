@@ -13,7 +13,7 @@ def mess_owner_input():
         mess_data[mess_name] = {"location": location, "Lmenu":lunch , "Dmenu":dinner, "waiting_time": waiting_time}
         print("Data for ",mess_name," submitted successfully!")
 
-# Student view data
+
 def student_view_data():
     print("Available Messes in your area are : ")
     for mess_name, data in mess_data.items():
